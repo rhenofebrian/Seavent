@@ -1,0 +1,162 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.nav-item a:hover {
+  background-color: #eaeaea;
+  border-radius: 20px;
+}
+
+.c-item {
+  height: 480px;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* card */
+.row .card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* category */
+.cat-icon img:hover {
+  cursor: pointer;
+}
+
+/* booking */
+.container-order {
+  background: linear-gradient(180deg, #305f8f, #3c6fa6);
+  width: 100%;
+  height: max-content;
+}
+.order-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-content {
+  color: white;
+}
+.container-img {
+  width: 100%;
+}
+.container-img img {
+  width: fit-content;
+}
+
+.order-box {
+  width: fit-content;
+}
+
+.ticket1 {
+  background: white;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+
+.order-content {
+  width: fit-content;
+}
+.button-order {
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-sum-order {
+  background: #efeeee;
+}
+
+.summary-box {
+  margin: 1rem 2rem 1rem 2rem;
+}
+.summary-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 575px) {
+  .cards-wrapper {
+    display: flex;
+  }
+
+  .category .cat-icon p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cat-icon {
+    flex: 0 0 calc(100% / 3 - 1rem);
+  }
+
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+  .feature-image img {
+    width: 30%;
+  }
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cat-icon {
+    flex: 0 0 calc(33.33% - 1rem);
+    margin: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 465px) {
+  .featured-image {
+    width: 40%;
+  }
+  .left-box {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .header h1#seaventtext {
+    font-size: 25px;
+  }
+  .header h1#singuptext {
+    font-size: 25px;
+  }
+  .header {
+    margin-top: 3rem;
+  }
+  .login-form label {
+    font-size: 15px;
+  }
+  .login-form input {
+    width: 80%;
+  }
+}
+@media screen and(min-width: 768px) {
+  .search-bar .form-control {
+    width: 250px;
+  }
+}
