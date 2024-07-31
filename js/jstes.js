@@ -419,17 +419,30 @@ document.addEventListener("click", function (e) {
 // console.log(nama);
 
 //metode chaining
-let nama = window.prompt("masukin nama");
+// let nama = window.prompt("masukin nama");
 
-// nama = nama.trim();
-// let letter = nama.charAt(0);
-// letter = letter.toUpperCase();
+// // nama = nama.trim();
+// // let letter = nama.charAt(0);
+// // letter = letter.toUpperCase();
 
-// let extraChars = nama.slice(1);
-// extraChars = extraChars.toLowerCase();
-// nama = letter + extraChars;
+// // let extraChars = nama.slice(1);
+// // extraChars = extraChars.toLowerCase();
+// // nama = letter + extraChars;
 
-//cara diatas terlalu panjang maka gunakan cara chaining dibawah
-nama = nama.trim().charAt(0).toUpperCase() + nama.trim().slice(1).toLowerCase();
+// //cara diatas terlalu panjang maka gunakan cara chaining dibawah
+// nama = nama.trim().charAt(0).toUpperCase() + nama.trim().slice(1).toLowerCase();
 
-console.log(nama);
+// console.log(nama);
+
+let nama = "";
+while (nama === "" || nama === null) {
+  alert("sayang aku ga?");
+  nama = window.prompt("(ya/tidak)");
+  let jwbn = "makasih";
+  let jwbn2 = "ajg lu";
+  if (nama == "ya") {
+    document.getElementById("hayo").textContent = jwbn;
+  } else {
+    document.getElementById("hayo").textContent = jwbn2;
+  }
+}

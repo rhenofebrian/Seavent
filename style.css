@@ -208,7 +208,7 @@ h5 {
   background: #4085ca;
   color: #ffffff;
 }
-.button-profile p {
+.button-profile button {
   justify-content: center;
   align-items: center;
   text-align: center;
