@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <!-- style -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,7 +62,7 @@
               >
                 <div class="ticket1">
                   <h4>Reguler Ticket</h4>
-                  <p style="margin: 0">Rp 120,000</p>
+                  <p id="price1" style="margin: 0">Rp 120,000</p>
                 </div>
                 <div
                   class="button-order justify-content-center align-items-center my-3"
@@ -84,7 +84,7 @@
               >
                 <div class="ticket1">
                   <h4>VIP Ticket</h4>
-                  <p style="margin: 0">Rp 180,000</p>
+                  <p id="price2" style="margin: 0">Rp 180,000</p>
                 </div>
                 <div
                   class="button-order justify-content-center align-items-center my-3"
@@ -106,7 +106,7 @@
               >
                 <div class="ticket1">
                   <h4>VVIP Ticket</h4>
-                  <p style="margin: 0">Rp 220,000</p>
+                  <p id="price3" style="margin: 0">Rp 220,000</p>
                 </div>
                 <div
                   class="button-order justify-content-center align-items-center my-3"
@@ -132,16 +132,16 @@
               <h3 style="margin: 0">Order Summary:</h3>
             </div>
             <div class="col summary-box">
-              <p style="margin: 0">Reguler Ticket:</p>
-              <p style="margin: 0">Rp 120,000</p>
+              <p style="margin: 0">Ticket:</p>
+              <p id="price" style="margin: 0"></p>
             </div>
             <div class="col summary-box">
               <p style="margin: 0">Fees:</p>
-              <p style="margin: 0">Rp 20,000</p>
+              <p id="feePrice" style="margin: 0"></p>
             </div>
             <div class="col summary-box">
               <p style="margin: 0">Total:</p>
-              <p style="margin: 0">Rp 140,000</p>
+              <p id="totalPrice" style="margin: 0"></p>
             </div>
             <div
               class="col col-lg-2 summary-box d-flex align-items-center justify-content-center"

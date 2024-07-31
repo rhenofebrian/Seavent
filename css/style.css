@@ -81,6 +81,17 @@
   border-radius: 2px;
 }
 
+.card-body a {
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  text-decoration: none;
+  background: #4085ca;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 5px 8px 5px 8px;
+}
+
 .schedule-content {
   background: #00509e;
   color: #fff;
@@ -192,6 +203,7 @@ h5 {
   background: #4085ca;
   transition: 300ms;
 }
+
 /* Profile page user */
 .profile-box,
 .event-box {
@@ -207,8 +219,6 @@ h5 {
   border-radius: 10px;
   background: #4085ca;
   color: #ffffff;
-}
-.button-profile button {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -253,13 +263,16 @@ h5 {
   }
 }
 
-@media (max-width: 465px) {
+@media (max-width: 425px) {
   .featured-image {
     width: 40%;
   }
   .left-box {
     padding-top: 5rem;
     padding-bottom: 3rem;
+  }
+  #button-profile {
+    flex-direction: column !important;
   }
 }
 
